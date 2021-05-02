@@ -1,0 +1,38 @@
+#anchor-pane {
+    -fx-background-color: #596275;
+}
+
+#startButton {
+    -fx-font-family: "Montserrat ExtraBold";
+    -fx-background-color: #37b2f9;
+    -fx-blend-mode: "DARKEN";
+    -fx-content-display: "CENTER";
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 20.0;
+    -fx-text-alignment: "CENTER";
+}
+
+#startButton:pressed {
+    -fx-font-family: "Montserrat ExtraBold";
+    -fx-background-color: #ffffff;
+    -fx-border-color: #37b2f9;
+    -fx-border-width: 5.0;
+    -fx-blend-mode: "DARKEN";
+    -fx-content-display: "CENTER";
+    -fx-text-fill: #37b2f9;
+    -fx-font-size: 20.0;
+    -fx-text-alignment: "CENTER";
+}
+
+#score {
+    -fx-font-family: "Montserrat Extrabold";
+    -fx-font-size: 20.0;
+    -fx-text-fill: #000000;
+    -fx-background-color: transparent;
+}
+
+#char1, #char2, #char3 {
+    -fx-font-family: "Raleway SemiBold";
+    -fx-font-size: 32.0;
+    -fx-text-fill: #303952;
+}
